@@ -1,0 +1,143 @@
+
+body{
+background-image:url(AuBg.jpg);
+background-repeat:no-repeat;
+background-position:right top;
+font-family:Tahoma;
+overflow: hidden;
+}
+.search{
+float:right;
+width:35px;
+margin:5px;
+height:35px;
+box-sizing: border-box;
+border:none;
+border-radius: 4px;
+font-size: 16px;
+background-color: white;
+background-image: url('search-icon.png');
+background-position:left top; 
+background-repeat: no-repeat;
+-webkit-transition: width 0.5s ease-in-out;
+transition: width 0.5s ease-in-out;
+}
+.search:focus {
+border: 1px solid #0054a4;
+padding: 12px 20px 12px 40px;
+width: 500px;
+}
+h1{
+margin: 10px
+font-size: 30px;
+color: #fff;
+text-transform: uppercase;
+font-weight: 300;
+text-align:left;
+margin-bottom:00px;
+}
+.input{
+border-style:none;
+border-radius:4px;
+width:250px;
+height:25px;
+margin:5px;
+padding:3px;
+}
+.btn{
+float:left;
+text-align:center;
+background-color:#c93221;
+color:#FFFFFF;
+font-size: 16px;
+height:35px;
+border:none;
+border-radius:4px;
+font-family:Tahoma;
+margin:5px;
+width:200px;
+}
+.btn:hover{
+background-color:#0054a4;}
+.tbl{
+width:300px;
+margin-top:100px;
+background-image:url(tablebg.png);
+border:none;
+border-radius:4px;
+ }
+.divinfo{
+padding-left: 5px;
+padding-bottom: 10px;
+display: inline-table;
+border-radius:5px;
+background: -webkit-linear-gradient(left, #c93221, #0054a4 );
+}
+td{
+width: 500px;
+}
+.tblinfo{
+display:block;
+table-layout: auto;
+overflow-x:auto;
+border: 1px;
+width:1350px;
+height: 450px;
+}
+.tblinfo tr:hover{
+background-image:url(tablebg.png);
+
+}
+
+.tblinfo-content{
+height:300px;
+margin-top: 0px;
+border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+padding: 20px 15px;
+text-align: left;
+font-weight: 500;
+font-size: 12px;
+color: #fff;
+text-transform: uppercase;
+}
+td{
+padding: 15px;
+text-align: left;
+vertical-align:middle;
+font-weight: 300;
+font-size: 12px;
+color: #fff;
+border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+ .btnval{
+font-size:15px;
+float: middle;
+ }
+.tblAdmin{
+
+padding:0px;
+background-image:url(BGtableinfo.png);
+margin-left:200px;
+margin-right: 50px;
+border-radius:5px;
+float:left;
+width: 350px;
+}
+.tblstudent{
+width: 350px;
+padding:0px;
+background-image:url(BGtableinfo.png);
+margin-left : 50px;
+margin-right: 200px;
+border-radius:5px;
+float:right;
+}
+b{
+color:#000000;
+font-size:15px;
+}
+p{
+size:15px;
+}
